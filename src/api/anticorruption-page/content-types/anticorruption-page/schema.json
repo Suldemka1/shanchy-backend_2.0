@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "anticorruption_pages",
+  "info": {
+    "singularName": "anticorruption-page",
+    "pluralName": "anticorruption-pages",
+    "displayName": "Anticorruption-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-component.static-page"
+    }
+  }
+}

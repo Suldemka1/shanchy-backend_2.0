@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffs",
+  "info": {
+    "singularName": "staff",
+    "pluralName": "staffs",
+    "displayName": "Staff"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "person_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "staff.person-card"
+    },
+    "professional_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "staff.staff-card"
+    }
+  }
+}

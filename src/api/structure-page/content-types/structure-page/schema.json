@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "structure_pages",
+  "info": {
+    "singularName": "structure-page",
+    "pluralName": "structure-pages",
+    "displayName": "Structure-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-component.static-page"
+    }
+  }
+}

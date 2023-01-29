@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "functions_pages",
+  "info": {
+    "singularName": "functions-page",
+    "pluralName": "functions-pages",
+    "displayName": "functions-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-component.static-page"
+    }
+  }
+}

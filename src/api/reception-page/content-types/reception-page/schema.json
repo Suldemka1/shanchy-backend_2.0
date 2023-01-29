@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "reception_pages",
+  "info": {
+    "singularName": "reception-page",
+    "pluralName": "reception-pages",
+    "displayName": "Reception-page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-component.static-page"
+    }
+  }
+}
