@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contacts-page",
     "pluralName": "contacts-pages",
-    "displayName": "Contacts-page"
+    "displayName": "Contacts-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

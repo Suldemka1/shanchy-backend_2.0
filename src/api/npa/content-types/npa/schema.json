@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "antiterror_pages",
+  "collectionName": "npas",
   "info": {
-    "singularName": "antiterror-page",
-    "pluralName": "antiterror-pages",
-    "displayName": "Antiterror-page",
+    "singularName": "npa",
+    "pluralName": "npas",
+    "displayName": "npa",
     "description": ""
   },
   "options": {

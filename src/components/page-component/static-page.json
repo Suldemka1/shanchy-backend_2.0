@@ -5,5 +5,21 @@
     "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "documents": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::appeal.appeal"
+    }
+  }
 }

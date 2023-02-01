@@ -1,14 +1,22 @@
 {
   "collectionName": "components_page_component_pages",
   "info": {
-    "displayName": "page"
+    "displayName": "page",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string"
     },
-    "image": {
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "documents": {
       "allowedTypes": [
         "images",
         "files",
@@ -16,15 +24,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
-    },
-    "content": {
-      "type": "richtext"
-    },
-    "documents": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::appeal.appeal"
+      "multiple": false
     }
   }
 }

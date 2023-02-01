@@ -4,7 +4,8 @@
   "info": {
     "singularName": "reception-page",
     "pluralName": "reception-pages",
-    "displayName": "Reception-page"
+    "displayName": "Reception-page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +15,7 @@
     "page": {
       "type": "component",
       "repeatable": false,
-      "component": "page-component.static-page"
+      "component": "page-component.page"
     }
   }
 }

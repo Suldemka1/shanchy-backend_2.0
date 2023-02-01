@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "antiterror_pages",
+  "collectionName": "deyatelnost_pages",
   "info": {
-    "singularName": "antiterror-page",
-    "pluralName": "antiterror-pages",
-    "displayName": "Antiterror-page",
+    "singularName": "deyatelnost-page",
+    "pluralName": "deyatelnost-pages",
+    "displayName": "deyatelnost-page",
     "description": ""
   },
   "options": {
